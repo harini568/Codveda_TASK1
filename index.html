@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to MyBrand</h1>
+      <p>Your perfect solution for modern web needs.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature-item">🌐 Responsive Design</div>
+      <div class="feature-item">⚡ Fast Performance</div>
+      <div class="feature-item">🔒 Secure and Reliable</div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 MyBrand. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
